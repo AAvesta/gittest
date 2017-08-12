@@ -1,0 +1,177 @@
+<<<<<<< HEAD
+<html>
+	<head>
+		<title> Avesta Galery
+		</title>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js">
+		</script>
+		<link rel="stylesheet"
+			  type= "text/css"
+			  href = "bootstrap.css"
+		/>
+		<link rel="stylesheet"
+			  type= "text/css"
+			  href = "FirstStylesheet.css"
+		/>
+	</head>
+	
+	<body>
+		<a 	href="test5.html">	New Home </a>
+		&nbsp;
+		<a 	href="test1.html">	My NEW test </a>
+		&nbsp;
+		<a 	href="Test2.html" >	My Second Second  test </a>
+
+	
+	<div class="container">
+		<h1> Avesta Photo Galery  h1</h1>
+		 
+		<div class="row">
+			<div class="col-md-4">
+				<img class="smallImage"
+				  src="Xma2009_06.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+			<div class="col-md-4">
+				<img class="smallImage" 
+				  src="Xma2009_07.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+			<div class="col-md-4">
+				<img class="smallImage" 
+				  src="Xma2009_08.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<img id="bigImage" 
+				  class="largeImage" 
+				  src="Xma2009_06.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+		</div>
+	</div>
+		
+		
+	<script type="text/javascript">
+			
+		$(".smallImage").click(function(){ 
+			$("#bigImage").attr('src',
+				$(this).attr('src'));
+			});
+			
+	</script>
+		
+	</body>
+</html>
+<script>
+		// when we click on the thumbnail
+		// we set the src attribute of the 
+		// bit image to be the same as the 
+		// src of the image we have clicked on
+		// ("this"). This loads the same
+		// image file into the big image
+		$(".crop-img").click(function(){
+			$("#bigImage").attr('src', 
+				$(this).attr('src'));
+		});
+	</script>
+		<div class="row">
+			<div class="col-md-12">
+				<img id="bigImage" 
+				  class="large-img" 
+				  src="img_1.jpg" 
+				  alt="graffittied building"/> 
+			</div>
+		</div>
+=======
+<html>
+	<head>
+		<title> Avesta NEW Galery 
+		</title>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js">
+		</script>
+		<link rel="stylesheet"
+			  type= "text/css"
+			  href = "bootstrap.css"
+		/>
+		<link rel="stylesheet"
+			  type= "text/css"
+			  href = "FirstStylesheet.css"
+		/>
+	</head>
+	
+	<body>
+		<a 	href="test5.html">	Home </a>
+		&nbsp;
+		<a 	href="test1.html">	My First test </a>
+		&nbsp;
+		<a 	href="Test2.html" >	My Second test </a>
+
+	
+	<div class="container">
+		<h1> Avesta Photo Galery  h1</h1>
+		 
+		<div class="row">
+			<div class="col-md-4">
+				<img class="smallImage"
+				  src="Xma2009_06.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+			<div class="col-md-4">
+				<img class="smallImage" 
+				  src="Xma2009_07.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+			<div class="col-md-4">
+				<img class="smallImage" 
+				  src="Xma2009_08.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<img id="bigImage" 
+				  class="largeImage" 
+				  src="Xma2009_06.jpg" 
+				  alt="Xmas 2009"/> 
+			</div>
+		</div>
+	</div>
+		
+		
+	<script type="text/javascript">
+			
+		$(".smallImage").click(function(){ 
+			$("#bigImage").attr('src',
+				$(this).attr('src'));
+			});
+			
+	</script>
+		
+	</body>
+</html>
+<script>
+		// when we click on the thumbnail
+		// we set the src attribute of the 
+		// bit image to be the same as the 
+		// src of the image we have clicked on
+		// ("this"). This loads the same
+		// image file into the big image
+		$(".crop-img").click(function(){
+			$("#bigImage").attr('src', 
+				$(this).attr('src'));
+		});
+	</script>
+		<div class="row">
+			<div class="col-md-12">
+				<img id="bigImage" 
+				  class="large-img" 
+				  src="img_1.jpg" 
+				  alt="graffittied building"/> 
+			</div>
+		</div>
+>>>>>>> 97a37aafb53282e9f97ac211164bc35b2ce2a44a
